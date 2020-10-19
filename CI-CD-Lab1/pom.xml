@@ -18,4 +18,11 @@
         </plugins>
  
   </build>
+  <distributionManagement>
+<snapshotRepository>
+<id>CICD-Lab10</id>
+<name>CICD-Lab10</name>
+<url>http://localhost:8081/repository/CICD-Lab10/</url>
+</snapshotRepository>
+</distributionManagement>
 </project>
